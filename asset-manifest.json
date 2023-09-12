@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skimbox-assignment/static/css/main.3c34c5d4.css",
-    "main.js": "/skimbox-assignment/static/js/main.a1a0c042.js",
+    "main.js": "/skimbox-assignment/static/js/main.aaef0fb2.js",
     "static/js/787.88eb117c.chunk.js": "/skimbox-assignment/static/js/787.88eb117c.chunk.js",
     "index.html": "/skimbox-assignment/index.html",
     "main.3c34c5d4.css.map": "/skimbox-assignment/static/css/main.3c34c5d4.css.map",
-    "main.a1a0c042.js.map": "/skimbox-assignment/static/js/main.a1a0c042.js.map",
+    "main.aaef0fb2.js.map": "/skimbox-assignment/static/js/main.aaef0fb2.js.map",
     "787.88eb117c.chunk.js.map": "/skimbox-assignment/static/js/787.88eb117c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c34c5d4.css",
-    "static/js/main.a1a0c042.js"
+    "static/js/main.aaef0fb2.js"
   ]
 }
