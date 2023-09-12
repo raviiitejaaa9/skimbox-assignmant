@@ -1,0 +1,115 @@
+.list-item{
+    background-color: #ffffff;
+    border-radius: 13px;
+    padding: 8px;
+    border: 2px lightgray solid;
+    margin: 10px;
+}
+
+.list-dec{
+    border: 2px lightgreen solid;
+}
+
+
+.details{
+    width: 100%;
+    padding: 10px;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.price-type {
+    align-self: center;
+}
+
+.trail-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-top: lightgreen;
+    border-bottom: lightgreen;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.trail-details{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.type{
+    font-weight: bold;
+}
+
+.category{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.description{
+    font-weight: lighter;
+}
+
+.price{
+    font-weight: bold;
+    align-self: stretch;
+}
+
+.details-head{
+    font-weight: bold;
+}
+
+
+.btns-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.btns-container button {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px lightgray solid;
+    flex-grow: 2;
+    color: black;
+    font-weight: bold;
+    height: 36px;
+  }
+
+.active{
+    border-top: 2px #41d0ff solid !important ;
+} 
+
+.try-free-button{
+    width: 80%;
+    margin-left: 10%;  
+    border-radius: 15px;
+    background-color: black;  
+}
+
+
+
+@media (max-width:992px){
+    .list-item{
+        border: none;
+    }
+    .type{
+        display: none;
+    }
+
+    .category{
+        display: none;
+    }
+
+    .description{
+        display: none;
+    }
+}
+
+

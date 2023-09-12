@@ -1,0 +1,67 @@
+.custom-nav{
+    background-color: #ffffff;
+    border-bottom: lightgray 1px solid;
+}
+
+.nav-logo{
+    width: 105px;
+    height: 40px;
+}
+
+
+
+.freetrail-button{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: black 2px solid;  
+    outline: none;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.ham-button{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-buttons{
+    display: none;
+}
+
+
+
+@media (min-width:992px){
+    .nav-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .login-button{
+        width: 120px;
+        height: 32px;
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+
+    }
+
+    .start-free-trail-button{
+        margin-left: 10%;  
+        border-radius: 15px; 
+        background-color: black; 
+        color: #ffffff;
+        width: 200px;
+        height: 32px;
+        border: none;
+    }
+
+    .nav-logo{
+        width: 175px;
+        height: 65px;
+    }
+
+}
+
