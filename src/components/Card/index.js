@@ -4,7 +4,7 @@ import "./index.css"
 const Card = (props) => {
     const {eachObject} = props
     const {id, type, category, description, price, benefits } = eachObject
-    console.log(category) 
+    // console.log(category) 
     const listCss = id === 1 ? "list-item list-dec" : "list-item"
     
     return(

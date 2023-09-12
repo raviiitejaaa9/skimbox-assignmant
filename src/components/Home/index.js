@@ -49,7 +49,7 @@ function Home () {
     const requiredData = data.filter(eachObject => 
         eachObject.type === activeType
         )
-    console.log(requiredData)    
+    // console.log(requiredData)    
 
     return(
     <div className="app-container" >
